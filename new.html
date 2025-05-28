@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .contact{
+        color: white;
+        background-color: rgb(205, 10, 10);
+        height: 100vh;
+        width: 150%;
+    }
+    .contact-box{
+        display: flex;
+        background:rgb(180, 78, 206);  
+    }
+    .contact-left{
+        flex-basis: 60%;
+        padding-top: 30px 50px;
+        background-color:goldenrod;
+        color: rgb(76, 239, 48);
+    }
+    .contact-right{
+        flex-basis: 40%;
+        padding-right: 40px;
+        background-color: green;
+        padding-bottom: 100px;
+    }
+    .contact h1{
+        margin-bottom: 10px;
+        text-align: center;
+    }
+    .contact-left input{
+        color: rgb(253, 76, 12);
+    }
+    .input-row{
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 20px;
+    }
+    .input-row .input-group{
+        flex-basis: 45%;
+    }
+    .input{
+        width: 100%;
+        border: none;
+        border-bottom: 1px solid blue;
+    }
+</style>
+<body>
+    <div class="contact">
+        <h1>CONTACT ME</h1>
+        <p>Feel free to get in touch</p>
+        <div class="contact-box">
+        <div class="contact-left">Send your message
+        <form class="input">
+            <div class="input-row">
+                <div class="input-group">
+                    <label>NAME</label>
+                    <input type="text" placeholder="Enter your name" value="" required/>
+                </div>
+                <div class="input-group">
+                    <label>EMail</label>
+                    <input type="Email" placeholder="Email id" required/>
+                </div>
+                <div class="input-group">
+                    <label>SUBJECT</label>
+                    <input type="text" placeholder="Enter Subject" required/>
+                </div>
+                <div class="input-group">
+                    <label>MESSAGE</label>
+                    <textarea name="Message" placeholder="your Message"rows="10" minlength="100" required></textarea>
+                </div>
+                <div>
+               
+                        <label>
+                            <input type="submit" onclick="logo.html"   value="Submit">
+                        </label>
+               
+                </div>
+            </div>
+        </div>
+        </form>
+        <div class="contact-right"><h1>Reach Me</h1>
+        <table>
+            <tr><td>isaimol7708@gmail.com</td></tr>
+            <tr><td>7708446255</td></tr>
+            <tr><td>33a/3,vallioor,Tirunelveli</td></tr>
+        </table>
+        </div>
+    </div>
+</div>
+</body>
+</html>
